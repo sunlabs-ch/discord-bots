@@ -71,7 +71,7 @@ async def on_ready():
                 try:
                     await guild.me.edit(
                       #  nick=f'{token_name} ${round(float(price), 2)}'
-                       nick=f'${round(float(price), 2)}'
+                       nick=f'{round(float(price), 2)} USD'
                     )
                 except errors.Forbidden:
                     if guild not in errored_guilds:
