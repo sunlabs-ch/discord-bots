@@ -22,7 +22,7 @@ MARKET_ID = 'sw-dao'
 # Your bot's token goes here. This can be found on the Discord developers
 # portal.
 ################################################################################
-BOT_TOKEN = 'OTA3NjMxMzE3Nzc1MTc1Njgx.YYp_iQ.uL8oo67-b8FV7zr5qIAQYPK0YAc'
+BOT_TOKEN = 'Insert Discord BOT ID Here'
 ################################################################################
 
 print('\n---------- V² DISCORD x COINGECKO BOT ----------\n')
@@ -89,5 +89,5 @@ async def on_ready():
 ################################################################################
 # Run the client.
 ################################################################################
-client.run(OTA3NjMxMzE3Nzc1MTc1Njgx.YYp_iQ.uL8oo67-b8FV7zr5qIAQYPK0YAc)
+client.run(os.environ['BOT_TOKEN'])
 ################################################################################
