@@ -1,1 +1,1 @@
-worker:  python crypto-ticker/swd.py
+worker:  python swd.py
